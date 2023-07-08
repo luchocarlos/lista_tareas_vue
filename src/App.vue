@@ -1,15 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <ListaTareas/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ListaTareas from './components/Tareas.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // eslint-disable-next-line no-undef
+    ListaTareas
   }
 }
 </script>
